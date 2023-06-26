@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Mult4bLogic_tb_isim_beh.exe" -prj "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Mult4bLogic_tb_beh.prj" "work.Mult4bLogic_tb" 

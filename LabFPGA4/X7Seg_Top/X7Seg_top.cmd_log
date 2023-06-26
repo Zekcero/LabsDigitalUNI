@@ -1,0 +1,17 @@
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.xst" -ofn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "X7Seg_top.ngc" X7Seg_top.ngd  
+map -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o X7Seg_top_map.ncd X7Seg_top.ngd X7Seg_top.pcf 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.xst" -ofn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "X7Seg_top.ngc" X7Seg_top.ngd  
+map -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o X7Seg_top_map.ncd X7Seg_top.ngd X7Seg_top.pcf 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.xst" -ofn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "X7Seg_top.ngc" X7Seg_top.ngd  
+map -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o X7Seg_top_map.ncd X7Seg_top.ngd X7Seg_top.pcf 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.xst" -ofn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "X7Seg_top.ngc" X7Seg_top.ngd  
+map -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o X7Seg_top_map.ncd X7Seg_top.ngd X7Seg_top.pcf 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.xst" -ofn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "X7Seg_top.ngc" X7Seg_top.ngd  
+map -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o X7Seg_top_map.ncd X7Seg_top.ngd X7Seg_top.pcf 
+map -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o X7Seg_top_map.ncd X7Seg_top.ngd X7Seg_top.pcf 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.xst" -ofn "D:/Labs digital 1/X7Seg_Top/X7Seg_top.syr" 

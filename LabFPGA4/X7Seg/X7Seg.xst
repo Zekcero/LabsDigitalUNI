@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/David/Documents/LabsFPGADigital/LabFPGA4/X7Seg/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/David/Documents/LabsFPGADigital/LabFPGA4/X7Seg/xst"
+elaborate
+-ifn X7Seg.prj
+-ifmt mixed

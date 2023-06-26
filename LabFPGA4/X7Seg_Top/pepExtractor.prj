@@ -1,0 +1,4 @@
+work	"Adder1b.vhd"
+work	"Adder4bLogic.vhd"
+work	"X7Seg.vhd"
+work	"X7Seg_top.vhd"

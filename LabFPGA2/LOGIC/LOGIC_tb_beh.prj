@@ -1,0 +1,3 @@
+vhdl work "ANDOR.vhd"
+vhdl work "LOGIC.vhd"
+vhdl work "LOGIC_tb.vhd"

@@ -1,0 +1,1 @@
+vhdtdtfi -prj Mux_Top -o "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhi" -module Adder4bLogic -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Adder1b.vhd -lib work Adder4bLogic.vhd 

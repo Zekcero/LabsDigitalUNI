@@ -1,0 +1,14 @@
+AR adder4blogic behavioral "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhd" sub00/vhpl03 1656089595
+EN x7seg NULL "D:/Labs digital 1/Mux_Top/X7Seg.vhd" sub00/vhpl10 1656089602
+AR sub4blogic behavioral "D:/Labs digital 1/Mux_Top/Sub4Logic.vhd" sub00/vhpl05 1656089597
+AR muxn behavioral "D:/Labs digital 1/Mux_Top/MuxN.vhd" sub00/vhpl07 1656089599
+EN sub4blogic NULL "D:/Labs digital 1/Mux_Top/Sub4Logic.vhd" sub00/vhpl04 1656089596
+EN muxn NULL "D:/Labs digital 1/Mux_Top/MuxN.vhd" sub00/vhpl06 1656089598
+AR adder1b behavioral "D:/Labs digital 1/Mux_Top/Adder1b.vhd" sub00/vhpl01 1656089593
+EN bin2bcd NULL "D:/Labs digital 1/Mux_Top/BIN2BCD.vhd" sub00/vhpl08 1656089600
+EN mux_top NULL "D:/Labs digital 1/Mux_Top/Mux_Top.vhd" sub00/vhpl12 1656089604
+AR mux_top behavioral "D:/Labs digital 1/Mux_Top/Mux_Top.vhd" sub00/vhpl13 1656089605
+AR bin2bcd behavioral "D:/Labs digital 1/Mux_Top/BIN2BCD.vhd" sub00/vhpl09 1656089601
+AR x7seg behavioral "D:/Labs digital 1/Mux_Top/X7Seg.vhd" sub00/vhpl11 1656089603
+EN adder1b NULL "D:/Labs digital 1/Mux_Top/Adder1b.vhd" sub00/vhpl00 1656089592
+EN adder4blogic NULL "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhd" sub00/vhpl02 1656089594

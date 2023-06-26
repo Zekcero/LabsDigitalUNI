@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Adder4b/Adder4b_tb_isim_beh.exe" -prj "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Adder4b/Adder4b_tb_beh.prj" "Adder4b_tb" 

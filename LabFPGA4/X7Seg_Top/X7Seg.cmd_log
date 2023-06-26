@@ -1,0 +1,1 @@
+vhdtdtfi -prj X7Seg_Top -o "D:/Labs digital 1/X7Seg_Top/X7Seg.vhi" -module X7Seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work X7Seg.vhd 

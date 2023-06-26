@@ -1,0 +1,2 @@
+xst -intstyle ise -filter "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder1b.xst" -ofn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder1b.syr" 
+vhdtdtfi -prj Adder4bLogic -o "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder1b.vhi" -module Adder1b -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Adder1b.vhd 

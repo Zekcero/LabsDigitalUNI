@@ -1,0 +1,2 @@
+vhdl isim_temp "Div4bLogic.vhd"
+vhdl isim_temp "Div4BitLogic_tb.vhd"

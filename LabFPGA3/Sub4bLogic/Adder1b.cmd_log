@@ -1,0 +1,2 @@
+xst -intstyle ise -filter "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Sub4bLogic/iseconfig/filter.filter" -ifn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Sub4bLogic/Adder1b.xst" -ofn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Sub4bLogic/Adder1b.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Adder4bLogic.ucf -p xc3s100e-cp132-5 Adder1b.ngc Adder1b.ngd  

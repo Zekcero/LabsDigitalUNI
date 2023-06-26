@@ -1,0 +1,4 @@
+vhdl work "Adder1b.vhd"
+vhdl work "Adder4bLogic.vhd"
+vhdl work "Mult4bLogic.vhd"
+vhdl work "Mult4bLogic_tb.vhd"

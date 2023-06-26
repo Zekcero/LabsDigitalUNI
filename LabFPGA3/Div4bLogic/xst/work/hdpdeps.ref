@@ -1,0 +1,9 @@
+V3 4
+FL /home/ise/VirtualBox/Div4bLogic/Div4bLogic.vhd 2023/05/11.18:23:44 P.20131013
+FL C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Div4bLogic/Div4bLogic.vhd 2023/05/11.21:44:52 P.20131013
+EN work/divider 1683864617 \
+      FL C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Div4bLogic/Div4bLogic.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/divider/Behavioral 1683864618 \
+      FL C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Div4bLogic/Div4bLogic.vhd \
+      EN work/divider 1683864617

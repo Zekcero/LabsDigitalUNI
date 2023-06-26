@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/David/Documents/LabsFPGADigital/LabFPGA5/Mux-Top/Mux_Top_tb_isim_beh.exe" -prj "C:/Users/David/Documents/LabsFPGADigital/LabFPGA5/Mux-Top/Mux_Top_tb_beh.prj" "work.Mux_Top_tb" 

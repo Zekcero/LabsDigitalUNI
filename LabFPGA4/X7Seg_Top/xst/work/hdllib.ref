@@ -1,0 +1,8 @@
+AR adder4blogic behavioral "D:/Labs digital 1/X7Seg_Top/Adder4bLogic.vhd" sub00/vhpl05 1656006906
+EN x7seg NULL "D:/Labs digital 1/X7Seg_Top/X7Seg.vhd" sub00/vhpl06 1656006907
+EN x7seg_top NULL "D:/Labs digital 1/X7Seg_Top/X7Seg_top.vhd" sub00/vhpl00 1656006909
+AR adder1b behavioral "D:/Labs digital 1/X7Seg_Top/Adder1b.vhd" sub00/vhpl03 1656006904
+AR x7seg behavioral "D:/Labs digital 1/X7Seg_Top/X7Seg.vhd" sub00/vhpl07 1656006908
+EN adder1b NULL "D:/Labs digital 1/X7Seg_Top/Adder1b.vhd" sub00/vhpl02 1656006903
+AR x7seg_top behavioral "D:/Labs digital 1/X7Seg_Top/X7Seg_top.vhd" sub00/vhpl01 1656006910
+EN adder4blogic NULL "D:/Labs digital 1/X7Seg_Top/Adder4bLogic.vhd" sub00/vhpl04 1656006905

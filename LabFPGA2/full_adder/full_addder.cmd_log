@@ -1,0 +1,7 @@
+xst -intstyle ise -filter "/home/ise/Elec._digital_1/LabFPGA2/full_adder/iseconfig/filter.filter" -ifn "/home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.xst" -ofn "/home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.syr" 
+vhdtdtfi -prj full_adder -o /home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.vhi -module full_addder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work half_adder.vhd -lib work full_addder.vhd 
+vhdtdtfi -prj full_adder -o /home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.vhi -module full_addder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work half_adder.vhd -lib work full_addder.vhd 
+vhdtdtfi -lib work half_adder.vhd -lib work full_addder.vhd -prj full_adder -o full_addder.spl -module full_addder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e full_addder.spl /home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.sym 
+vhdtdtfi -prj full_adder -o /home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.vhi -module full_addder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work half_adder.vhd -lib work full_addder.vhd 
+vhdtdtfi -prj full_adder -o /home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.vhi -module full_addder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work half_adder.vhd -lib work full_addder.vhd 

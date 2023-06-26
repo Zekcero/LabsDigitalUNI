@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/David/Documents/LabsFPGADigital/LabsConseguidos/Hex7Segb/Hex7Segb_tb_isim_beh.exe" -prj "C:/Users/David/Documents/LabsFPGADigital/LabsConseguidos/Hex7Segb/Hex7Segb_tb_beh.prj" "work.Hex7Segb_tb" 

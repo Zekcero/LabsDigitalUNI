@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Labs digital 1/MUX/Mux_tb_isim_beh.exe" -prj "D:/Labs digital 1/MUX/Mux_tb_beh.prj" "work.Mux_tb" 

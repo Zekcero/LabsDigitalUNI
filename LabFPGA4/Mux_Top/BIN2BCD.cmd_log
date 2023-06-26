@@ -1,0 +1,1 @@
+vhdtdtfi -prj Mux_Top -o "D:/Labs digital 1/Mux_Top/BIN2BCD.vhi" -module BIN2BCD -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BIN2BCD.vhd 

@@ -1,0 +1,10 @@
+V3 5
+FL C:/Users/David/Documents/LabsFPGADigital/LabFPGA4/X7Seg/X7Seg.vhd 2023/05/18.09:12:23 P.20131013
+EN work/X7Seg 1684422747 \
+      FL C:/Users/David/Documents/LabsFPGADigital/LabFPGA4/X7Seg/X7Seg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/X7Seg/Behavioral 1684422748 \
+      FL C:/Users/David/Documents/LabsFPGADigital/LabFPGA4/X7Seg/X7Seg.vhd \
+      EN work/X7Seg 1684422747
+FL C:/Users/David/Documents/LabsFPGADigital/LabsConseguidos/X7Seg/X7Seg.vhd 2023/05/15.13:13:14 P.20131013
+FL "D:/Labs digital 1/X7Seg/X7Seg.vhd" 2022/06/22.14:24:18 P.20131013

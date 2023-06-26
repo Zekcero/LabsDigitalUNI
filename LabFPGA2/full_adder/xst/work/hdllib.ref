@@ -1,0 +1,4 @@
+EN half_adder NULL /home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.vhd sub00/vhpl00 1682554984
+EN full_addder NULL /home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.vhd sub00/vhpl02 1682554986
+AR half_adder behavioral /home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.vhd sub00/vhpl01 1682554985
+AR full_addder behavioral /home/ise/Elec._digital_1/LabFPGA2/full_adder/full_addder.vhd sub00/vhpl03 1682554987

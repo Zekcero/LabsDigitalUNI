@@ -1,0 +1,2 @@
+vhdl isim_temp "Hex7Segb.vhd"
+vhdl isim_temp "Hex7Segb_tb.vhd"

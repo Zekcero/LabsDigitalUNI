@@ -1,0 +1,29 @@
+Command line:
+   Div4BitLogic_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50642
+
+Thu May 11 22:05:23 2023
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5151.87 Meg
+
+ Total Signals          : 10
+ Total Nets             : 17
+ Total Signal Drivers   : 5
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 500
+Total Line Count : 30
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 4680.01 Meg
+
+Thu May 11 22:08:21 2023
+

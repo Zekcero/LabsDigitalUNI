@@ -1,0 +1,5 @@
+set -tmpdir "D:/Labs digital 1/Mux_Top/xst/projnav.tmp"
+set -xsthdpdir "D:/Labs digital 1/Mux_Top/xst"
+elaborate
+-ifn BIN2BCD.prj
+-ifmt mixed

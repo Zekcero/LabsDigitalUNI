@@ -1,0 +1,3 @@
+xst -intstyle ise -filter "/home/ise/VirtualBox/Div4bLogic/iseconfig/filter.filter" -ifn "/home/ise/VirtualBox/Div4bLogic/divider.xst" -ofn "/home/ise/VirtualBox/Div4bLogic/divider.syr" 
+xst -intstyle ise -filter "/home/ise/VirtualBox/Div4bLogic/iseconfig/filter.filter" -ifn "/home/ise/VirtualBox/Div4bLogic/divider.xst" -ofn "/home/ise/VirtualBox/Div4bLogic/divider.syr" 
+xst -intstyle ise -filter "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Div4bLogic/iseconfig/filter.filter" -ifn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Div4bLogic/divider.xst" -ofn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Div4bLogic/divider.syr" 

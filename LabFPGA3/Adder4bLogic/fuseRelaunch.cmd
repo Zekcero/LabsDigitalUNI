@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Nueva carpeta/Adder4bLogic/Adder4bLogig_tb_isim_beh.exe" -prj "E:/Nueva carpeta/Adder4bLogic/Adder4bLogig_tb_beh.prj" "work.Adder4bLogig_tb" 

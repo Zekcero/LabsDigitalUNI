@@ -1,0 +1,1 @@
+vhdtdtfi -prj Mux-Top -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA5/Mux-Top/Sub4bLogic.vhi -module Sub4bLogic -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Adder1b.vhd -lib work Sub4bLogic.vhd 

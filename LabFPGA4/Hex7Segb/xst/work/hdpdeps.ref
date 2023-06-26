@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/David/Documents/LabsFPGADigital/LabsConseguidos/Hex7Segb/Hex7Segb.vhd 2023/05/15.13:45:57 P.20131013
+EN work/Hex7Segb 1684179968 \
+      FL C:/Users/David/Documents/LabsFPGADigital/LabsConseguidos/Hex7Segb/Hex7Segb.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Hex7Segb/Behavioral 1684179969 \
+      FL C:/Users/David/Documents/LabsFPGADigital/LabsConseguidos/Hex7Segb/Hex7Segb.vhd \
+      EN work/Hex7Segb 1684179968

@@ -1,0 +1,3 @@
+xst -intstyle ise -filter "D:/Labs digital 1/MUX/iseconfig/filter.filter" -ifn "D:/Labs digital 1/MUX/Mux4.xst" -ofn "D:/Labs digital 1/MUX/Mux4.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Mux4.ngc" Mux4.ngd  
+map -filter "D:/Labs digital 1/MUX/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mux4_map.ncd Mux4.ngd Mux4.pcf 

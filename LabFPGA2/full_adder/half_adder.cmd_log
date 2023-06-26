@@ -1,0 +1,8 @@
+xst -intstyle ise -filter "/home/ise/Elec._digital_1/LabFPGA2/full_adder/iseconfig/filter.filter" -ifn "/home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.xst" -ofn "/home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.syr" 
+xst -intstyle ise -filter "/home/ise/Elec._digital_1/LabFPGA2/full_adder/iseconfig/filter.filter" -ifn "/home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.xst" -ofn "/home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 half_adder.ngc half_adder.ngd  
+map -filter "/home/ise/Elec._digital_1/LabFPGA2/full_adder/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o half_adder_map.ncd half_adder.ngd half_adder.pcf 
+par -filter "/home/ise/Elec._digital_1/LabFPGA2/full_adder/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 half_adder_map.ncd half_adder.ncd half_adder.pcf 
+trce -filter /home/ise/Elec._digital_1/LabFPGA2/full_adder/iseconfig/filter.filter -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml half_adder.twx half_adder.ncd -o half_adder.twr half_adder.pcf 
+vhdtdtfi -prj full_adder -o /home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.vhi -module half_adder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work half_adder.vhd 
+vhdtdtfi -prj full_adder -o /home/ise/Elec._digital_1/LabFPGA2/full_adder/half_adder.vhi -module half_adder -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work half_adder.vhd 

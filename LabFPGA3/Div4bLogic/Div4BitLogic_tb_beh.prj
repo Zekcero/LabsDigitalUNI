@@ -1,0 +1,2 @@
+vhdl work "Div4bLogic.vhd"
+vhdl work "Div4BitLogic_tb.vhd"

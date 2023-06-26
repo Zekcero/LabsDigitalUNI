@@ -1,0 +1,29 @@
+Command line:
+   Hex7Segb_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56690
+
+Wed May 17 14:01:39 2023
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5152.08 Meg
+
+ Total Signals          : 4
+ Total Nets             : 11
+ Total Signal Drivers   : 2
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 389
+Total Line Count : 27
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 4680.22 Meg
+
+Wed May 17 14:03:58 2023
+

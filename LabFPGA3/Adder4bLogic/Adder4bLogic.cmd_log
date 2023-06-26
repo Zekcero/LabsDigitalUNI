@@ -1,0 +1,13 @@
+xst -intstyle ise -filter "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.xst" -ofn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.syr" 
+xst -intstyle ise -filter "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.xst" -ofn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Adder4bLogic.ngc" Adder4bLogic.ngd  
+map -filter "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Adder4bLogic_map.ncd Adder4bLogic.ngd Adder4bLogic.pcf 
+xst -intstyle ise -filter "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.xst" -ofn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Adder4bLogic.ucf -p xc3s100e-cp132-5 "Adder4bLogic.ngc" Adder4bLogic.ngd  
+xst -intstyle ise -filter "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.xst" -ofn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Adder4bLogic.ucf -p xc3s100e-cp132-5 "Adder4bLogic.ngc" Adder4bLogic.ngd  
+xst -intstyle ise -filter "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.xst" -ofn "C:/Users/user1/Documents/Nueva carpeta/Adder4bLogic/Adder4bLogic.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Adder4bLogic.ucf -p xc3s100e-cp132-5 "Adder4bLogic.ngc" Adder4bLogic.ngd  
+xst -intstyle ise -filter "E:/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "E:/Nueva carpeta/Adder4bLogic/Adder4bLogic.xst" -ofn "E:/Nueva carpeta/Adder4bLogic/Adder4bLogic.syr" 
+xst -intstyle ise -filter "E:/Nueva carpeta/Adder4bLogic/iseconfig/filter.filter" -ifn "E:/Nueva carpeta/Adder4bLogic/Adder4bLogic.xst" -ofn "E:/Nueva carpeta/Adder4bLogic/Adder4bLogic.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Adder4bLogic.ucf -p xc3s100e-cp132-5 "Adder4bLogic.ngc" Adder4bLogic.ngd  

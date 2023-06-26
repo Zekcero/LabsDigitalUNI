@@ -1,0 +1,5 @@
+xst -intstyle ise -filter "D:/Labs digital 1/BCD/iseconfig/filter.filter" -ifn "D:/Labs digital 1/BCD/BIN2BCD.xst" -ofn "D:/Labs digital 1/BCD/BIN2BCD.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "BIN2BCD.ngc" BIN2BCD.ngd  
+map -filter "D:/Labs digital 1/BCD/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BIN2BCD_map.ncd BIN2BCD.ngd BIN2BCD.pcf 
+vhdtdtfi -lib work BIN2BCD.vhd -prj BCD -o BIN2BCD.spl -module BIN2BCD -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BIN2BCD.spl {D:/Labs digital 1/BCD/BIN2BCD.sym} 

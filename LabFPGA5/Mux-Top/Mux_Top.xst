@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/David/Documents/LabsFPGADigital/LabFPGA5/Mux-Top/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/David/Documents/LabsFPGADigital/LabFPGA5/Mux-Top/xst"
+elaborate
+-ifn Mux_Top.prj
+-ifmt mixed

@@ -1,0 +1,41 @@
+V3 27
+FL "D:/Labs digital 1/Mux_Top/Adder1b.vhd" 2022/06/22.12:04:49 P.20131013
+EN work/Adder1b 1656089592 FL "D:/Labs digital 1/Mux_Top/Adder1b.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder1b/Behavioral 1656089593 \
+      FL "D:/Labs digital 1/Mux_Top/Adder1b.vhd" EN work/Adder1b 1656089592
+FL "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhd" 2022/06/22.12:56:09 P.20131013
+EN work/Adder4bLogic 1656089594 FL "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder4bLogic/Behavioral 1656089595 \
+      FL "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhd" EN work/Adder4bLogic 1656089594 \
+      CP Adder1b
+FL "D:/Labs digital 1/Mux_Top/BIN2BCD.vhd" 2022/06/24.00:11:26 P.20131013
+EN work/BIN2BCD 1656089600 FL "D:/Labs digital 1/Mux_Top/BIN2BCD.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/BIN2BCD/Behavioral 1656089601 \
+      FL "D:/Labs digital 1/Mux_Top/BIN2BCD.vhd" EN work/BIN2BCD 1656089600
+FL "D:/Labs digital 1/Mux_Top/MuxN.vhd" 2022/06/24.00:30:07 P.20131013
+EN work/MuxN 1656089598 FL "D:/Labs digital 1/Mux_Top/MuxN.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/MuxN/Behavioral 1656089599 \
+      FL "D:/Labs digital 1/Mux_Top/MuxN.vhd" EN work/MuxN 1656089598
+FL "D:/Labs digital 1/Mux_Top/Mux_Top.vhd" 2022/06/24.00:09:20 P.20131013
+EN work/Mux_Top 1656089604 FL "D:/Labs digital 1/Mux_Top/Mux_Top.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Mux_Top/Behavioral 1656089605 \
+      FL "D:/Labs digital 1/Mux_Top/Mux_Top.vhd" EN work/Mux_Top 1656089604 \
+      CP Adder4bLogic CP Sub4bLogic CP MuxN CP BIN2BCD CP X7Seg
+FL "D:/Labs digital 1/Mux_Top/Sub4Logic.vhd" 2022/06/23.13:47:18 P.20131013
+EN work/Sub4bLogic 1656089596 FL "D:/Labs digital 1/Mux_Top/Sub4Logic.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Sub4bLogic/Behavioral 1656089597 \
+      FL "D:/Labs digital 1/Mux_Top/Sub4Logic.vhd" EN work/Sub4bLogic 1656089596 \
+      CP Adder1b
+FL "D:/Labs digital 1/Mux_Top/X7Seg.vhd" 2022/06/24.00:07:39 P.20131013
+EN work/X7Seg 1656089602 FL "D:/Labs digital 1/Mux_Top/X7Seg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/X7Seg/Behavioral 1656089603 \
+      FL "D:/Labs digital 1/Mux_Top/X7Seg.vhd" EN work/X7Seg 1656089602

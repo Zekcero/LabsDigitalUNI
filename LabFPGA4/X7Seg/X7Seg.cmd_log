@@ -1,0 +1,13 @@
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "X7Seg.ngc" X7Seg.ngd  
+map -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o X7Seg_map.ncd X7Seg.ngd X7Seg.pcf 
+xst -intstyle ise -filter "D:/Labs digital 1/X7Seg/iseconfig/filter.filter" -ifn "D:/Labs digital 1/X7Seg/X7Seg.xst" -ofn "D:/Labs digital 1/X7Seg/X7Seg.syr" 

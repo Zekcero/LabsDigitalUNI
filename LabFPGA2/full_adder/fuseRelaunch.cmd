@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/full_adder/full_adder_isim_beh.exe" -prj "C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/full_adder/full_adder_beh.prj" "work.full_adder" 

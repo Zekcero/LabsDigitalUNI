@@ -1,0 +1,23 @@
+V3 15
+FL "D:/Labs digital 1/X7Seg_Top/Adder1b.vhd" 2022/06/22.12:04:49 P.20131013
+EN work/Adder1b 1656006903 FL "D:/Labs digital 1/X7Seg_Top/Adder1b.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder1b/Behavioral 1656006904 \
+      FL "D:/Labs digital 1/X7Seg_Top/Adder1b.vhd" EN work/Adder1b 1656006903
+FL "D:/Labs digital 1/X7Seg_Top/Adder4bLogic.vhd" 2022/06/22.12:56:09 P.20131013
+EN work/Adder4bLogic 1656006905 FL "D:/Labs digital 1/X7Seg_Top/Adder4bLogic.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder4bLogic/Behavioral 1656006906 \
+      FL "D:/Labs digital 1/X7Seg_Top/Adder4bLogic.vhd" EN work/Adder4bLogic 1656006905 \
+      CP Adder1b
+FL "D:/Labs digital 1/X7Seg_Top/X7Seg.vhd" 2022/06/22.14:24:18 P.20131013
+EN work/X7Seg 1656006907 FL "D:/Labs digital 1/X7Seg_Top/X7Seg.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/X7Seg/Behavioral 1656006908 \
+      FL "D:/Labs digital 1/X7Seg_Top/X7Seg.vhd" EN work/X7Seg 1656006907
+FL "D:/Labs digital 1/X7Seg_Top/X7Seg_top.vhd" 2022/06/22.15:24:14 P.20131013
+EN work/X7Seg_top 1656006909 FL "D:/Labs digital 1/X7Seg_Top/X7Seg_top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/X7Seg_top/Behavioral 1656006910 \
+      FL "D:/Labs digital 1/X7Seg_Top/X7Seg_top.vhd" EN work/X7Seg_top 1656006909 \
+      CP Adder4bLogic CP X7Seg

@@ -1,0 +1,8 @@
+vhdl work "Adder1b.vhd"
+vhdl work "X7Seg.vhd"
+vhdl work "Sub4Logic.vhd"
+vhdl work "MuxN.vhd"
+vhdl work "BIN2BCD.vhd"
+vhdl work "Adder4bLogic.vhd"
+vhdl work "Mux_Top.vhd"
+vhdl work "Mux_Top_tb.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Adder4b/iseconfig/filter.filter" -ifn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Adder4b/Adder4b.xst" -ofn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Adder4b/Adder4b.syr" 

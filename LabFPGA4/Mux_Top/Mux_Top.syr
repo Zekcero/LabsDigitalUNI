@@ -1,0 +1,507 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Reading design: Mux_Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Mux_Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Mux_Top"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Mux_Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Labs digital 1/Mux_Top/Adder1b.vhd" in Library work.
+Architecture behavioral of Entity adder1b is up to date.
+Compiling vhdl file "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhd" in Library work.
+Architecture behavioral of Entity adder4blogic is up to date.
+Compiling vhdl file "D:/Labs digital 1/Mux_Top/Sub4Logic.vhd" in Library work.
+Architecture behavioral of Entity sub4blogic is up to date.
+Compiling vhdl file "D:/Labs digital 1/Mux_Top/MuxN.vhd" in Library work.
+Architecture behavioral of Entity muxn is up to date.
+Compiling vhdl file "D:/Labs digital 1/Mux_Top/BIN2BCD.vhd" in Library work.
+Architecture behavioral of Entity bin2bcd is up to date.
+Compiling vhdl file "D:/Labs digital 1/Mux_Top/X7Seg.vhd" in Library work.
+Architecture behavioral of Entity x7seg is up to date.
+Compiling vhdl file "D:/Labs digital 1/Mux_Top/Mux_Top.vhd" in Library work.
+Architecture behavioral of Entity mux_top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Mux_Top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder4bLogic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Sub4bLogic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MuxN> in library <work> (architecture <behavioral>) with generics.
+	M = 2
+	N = 8
+
+Analyzing hierarchy for entity <BIN2BCD> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <X7Seg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder1b> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Mux_Top> in library <work> (Architecture <behavioral>).
+Entity <Mux_Top> analyzed. Unit <Mux_Top> generated.
+
+Analyzing Entity <Adder4bLogic> in library <work> (Architecture <behavioral>).
+Entity <Adder4bLogic> analyzed. Unit <Adder4bLogic> generated.
+
+Analyzing Entity <Adder1b> in library <work> (Architecture <behavioral>).
+Entity <Adder1b> analyzed. Unit <Adder1b> generated.
+
+Analyzing Entity <Sub4bLogic> in library <work> (Architecture <behavioral>).
+Entity <Sub4bLogic> analyzed. Unit <Sub4bLogic> generated.
+
+Analyzing generic Entity <MuxN> in library <work> (Architecture <behavioral>).
+	M = 2
+	N = 8
+Entity <MuxN> analyzed. Unit <MuxN> generated.
+
+Analyzing Entity <BIN2BCD> in library <work> (Architecture <behavioral>).
+Entity <BIN2BCD> analyzed. Unit <BIN2BCD> generated.
+
+Analyzing Entity <X7Seg> in library <work> (Architecture <behavioral>).
+Entity <X7Seg> analyzed. Unit <X7Seg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <MuxN>.
+    Related source file is "D:/Labs digital 1/Mux_Top/MuxN.vhd".
+Unit <MuxN> synthesized.
+
+
+Synthesizing Unit <BIN2BCD>.
+    Related source file is "D:/Labs digital 1/Mux_Top/BIN2BCD.vhd".
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0000> created at line 52.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0001> created at line 52.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0002> created at line 52.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0003> created at line 52.
+    Found 5-bit comparator greater for signal <z_11$cmp_gt0004> created at line 52.
+    Found 4-bit adder for signal <z_11_8$add0000> created at line 53.
+    Found 4-bit adder for signal <z_11_8$add0001> created at line 53.
+    Found 4-bit adder for signal <z_11_8$add0002> created at line 53.
+    Found 4-bit adder for signal <z_11_8$add0003> created at line 53.
+    Found 4-bit adder for signal <z_11_8$add0004> created at line 53.
+    Found 5-bit comparator greater for signal <z_15$cmp_gt0000> created at line 56.
+    Found 5-bit comparator greater for signal <z_15$cmp_gt0001> created at line 56.
+    Found 4-bit adder for signal <z_15_12$add0000> created at line 57.
+    Found 4-bit adder for signal <z_15_12$add0001> created at line 57.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Comparator(s).
+Unit <BIN2BCD> synthesized.
+
+
+Synthesizing Unit <X7Seg>.
+    Related source file is "D:/Labs digital 1/Mux_Top/X7Seg.vhd".
+WARNING:Xst:646 - Signal <aen> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16x7-bit ROM for signal <a_to_g>.
+    Found 20-bit up counter for signal <clkdiv>.
+    Found 4-bit 4-to-1 multiplexer for signal <digit>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+Unit <X7Seg> synthesized.
+
+
+Synthesizing Unit <Adder1b>.
+    Related source file is "D:/Labs digital 1/Mux_Top/Adder1b.vhd".
+    Found 1-bit xor3 for signal <S>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <Adder1b> synthesized.
+
+
+Synthesizing Unit <Adder4bLogic>.
+    Related source file is "D:/Labs digital 1/Mux_Top/Adder4bLogic.vhd".
+Unit <Adder4bLogic> synthesized.
+
+
+Synthesizing Unit <Sub4bLogic>.
+    Related source file is "D:/Labs digital 1/Mux_Top/Sub4Logic.vhd".
+Unit <Sub4bLogic> synthesized.
+
+
+Synthesizing Unit <Mux_Top>.
+    Related source file is "D:/Labs digital 1/Mux_Top/Mux_Top.vhd".
+WARNING:Xst:653 - Signal <resultout> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+WARNING:Xst:646 - Signal <resultbcd> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Mux_Top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 7
+ 4-bit adder                                           : 7
+# Counters                                             : 1
+ 20-bit up counter                                     : 1
+# Comparators                                          : 7
+ 5-bit comparator greater                              : 7
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 8
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <U4> is unconnected in block <Mux_Top>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 7
+ 4-bit adder                                           : 7
+# Counters                                             : 1
+ 20-bit up counter                                     : 1
+# Comparators                                          : 7
+ 5-bit comparator greater                              : 7
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 8
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Mux_Top> ...
+
+Optimizing unit <BIN2BCD> ...
+
+Optimizing unit <X7Seg> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Mux_Top, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Mux_Top.ngr
+Top Level Output File Name         : Mux_Top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 33
+
+Cell Usage :
+# BELS                             : 74
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 19
+#      LUT2                        : 4
+#      LUT3                        : 9
+#      MUXCY                       : 19
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 20
+#      FDC                         : 20
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 32
+#      IBUF                        : 12
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       17  out of    960     1%  
+ Number of Slice Flip Flops:             20  out of   1920     1%  
+ Number of 4 input LUTs:                 33  out of   1920     1%  
+ Number of IOs:                          33
+ Number of bonded IOBs:                  33  out of     83    39%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+clr                                | IBUF                   | 20    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.882ns (Maximum Frequency: 257.632MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.342ns
+   Maximum combinational path delay: 10.020ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.882ns (frequency: 257.632MHz)
+  Total number of paths / destination ports: 210 / 20
+-------------------------------------------------------------------------
+Delay:               3.882ns (Levels of Logic = 20)
+  Source:            U5/clkdiv_1 (FF)
+  Destination:       U5/clkdiv_19 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: U5/clkdiv_1 to U5/clkdiv_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.509  U5/clkdiv_1 (U5/clkdiv_1)
+     LUT1:I0->O            1   0.612   0.000  U5/Mcount_clkdiv_cy<1>_rt (U5/Mcount_clkdiv_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  U5/Mcount_clkdiv_cy<1> (U5/Mcount_clkdiv_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<2> (U5/Mcount_clkdiv_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<3> (U5/Mcount_clkdiv_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<4> (U5/Mcount_clkdiv_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<5> (U5/Mcount_clkdiv_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<6> (U5/Mcount_clkdiv_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<7> (U5/Mcount_clkdiv_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<8> (U5/Mcount_clkdiv_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<9> (U5/Mcount_clkdiv_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<10> (U5/Mcount_clkdiv_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<11> (U5/Mcount_clkdiv_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<12> (U5/Mcount_clkdiv_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<13> (U5/Mcount_clkdiv_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<14> (U5/Mcount_clkdiv_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<15> (U5/Mcount_clkdiv_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<16> (U5/Mcount_clkdiv_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  U5/Mcount_clkdiv_cy<17> (U5/Mcount_clkdiv_cy<17>)
+     MUXCY:CI->O           0   0.051   0.000  U5/Mcount_clkdiv_cy<18> (U5/Mcount_clkdiv_cy<18>)
+     XORCY:CI->O           1   0.699   0.000  U5/Mcount_clkdiv_xor<19> (U5/Result<19>)
+     FDC:D                     0.268          U5/clkdiv_19
+    ----------------------------------------
+    Total                      3.882ns (3.373ns logic, 0.509ns route)
+                                       (86.9% logic, 13.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 4
+-------------------------------------------------------------------------
+Offset:              5.342ns (Levels of Logic = 2)
+  Source:            U5/clkdiv_18 (FF)
+  Destination:       an<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: U5/clkdiv_18 to an<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.514   0.690  U5/clkdiv_18 (U5/clkdiv_18)
+     LUT2:I0->O            1   0.612   0.357  U5/an_3_mux00011 (an_3_OBUF)
+     OBUF:I->O                 3.169          an_3_OBUF (an<3>)
+    ----------------------------------------
+    Total                      5.342ns (4.295ns logic, 1.047ns route)
+                                       (80.4% logic, 19.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 44 / 6
+-------------------------------------------------------------------------
+Delay:               10.020ns (Levels of Logic = 7)
+  Source:            B<0> (PAD)
+  Destination:       Led<4> (PAD)
+
+  Data Path: B<0> to Led<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  B_0_IBUF (B_0_IBUF)
+     LUT3:I0->O            2   0.612   0.449  U1/c11 (U1/c1)
+     LUT3:I1->O            2   0.612   0.449  U1/c21 (U1/c2)
+     LUT3:I1->O            2   0.612   0.449  U1/c31 (U1/c3)
+     LUT3:I1->O            2   0.612   0.449  U2/U4/Cout1 (Cout_OBUF)
+     LUT3:I1->O            1   0.612   0.357  U3/salida<4>1 (Led_4_OBUF)
+     OBUF:I->O                 3.169          Led_4_OBUF (Led<4>)
+    ----------------------------------------
+    Total                     10.020ns (7.335ns logic, 2.685ns route)
+                                       (73.2% logic, 26.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.22 secs
+ 
+--> 
+
+Total memory usage is 4521420 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

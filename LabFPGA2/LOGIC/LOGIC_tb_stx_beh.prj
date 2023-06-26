@@ -1,0 +1,3 @@
+vhdl isim_temp "ANDOR.vhd"
+vhdl isim_temp "LOGIC.vhd"
+vhdl isim_temp "LOGIC_tb.vhd"

@@ -1,0 +1,29 @@
+Command line:
+   Adder4bLogig_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64255
+
+Thu May 04 14:11:12 2023
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5150.95 Meg
+
+ Total Signals          : 33
+ Total Nets             : 17
+ Total Signal Drivers   : 10
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 9
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 377
+Total Line Count : 22
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 4679.09 Meg
+
+Thu May 04 14:18:05 2023
+

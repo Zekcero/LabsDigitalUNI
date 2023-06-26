@@ -1,0 +1,2 @@
+vhdtdtfi -prj Mult4bLogic -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Adder4bLogic.vhi -module Adder4bLogic -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Adder1b.vhd -lib work Adder4bLogic.vhd 
+vhdtdtfi -prj Mult4bLogic -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Adder4bLogic.vhi -module Adder4bLogic -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Adder1b.vhd -lib work Adder4bLogic.vhd 

@@ -1,0 +1,6 @@
+AR mult4blogic behavioral C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Mult4bLogic.vhd sub00/vhpl05 1683864787
+AR adder4blogic behavioral C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Adder4bLogic.vhd sub00/vhpl03 1683864785
+AR adder1b behavioral C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Adder1b.vhd sub00/vhpl01 1683864783
+EN mult4blogic NULL C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Mult4bLogic.vhd sub00/vhpl04 1683864786
+EN adder1b NULL C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Adder1b.vhd sub00/vhpl00 1683864782
+EN adder4blogic NULL C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Adder4bLogic.vhd sub00/vhpl02 1683864784

@@ -1,0 +1,21 @@
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Mux_Top.ngc" Mux_Top.ngd  
+map -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mux_Top_map.ncd Mux_Top.ngd Mux_Top.pcf 
+xst -intstyle ise -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -ifn "D:/Labs digital 1/Mux_Top/Mux_Top.xst" -ofn "D:/Labs digital 1/Mux_Top/Mux_Top.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Mux_Top.ngc" Mux_Top.ngd  
+map -filter "D:/Labs digital 1/Mux_Top/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mux_Top_map.ncd Mux_Top.ngd Mux_Top.pcf 

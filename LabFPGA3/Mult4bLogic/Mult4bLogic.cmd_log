@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/iseconfig/filter.filter" -ifn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Mult4bLogic.xst" -ofn "C:/Users/David/Documents/LabsFPGADigital/LabFPGA3/Mult4bLogic/Mult4bLogic.syr" 

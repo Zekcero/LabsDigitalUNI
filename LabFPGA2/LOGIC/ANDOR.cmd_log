@@ -1,0 +1,7 @@
+vhdtdtfi -prj LOGIC -o /home/ise/LOGIC/ANDOR.tfi -module ANDOR -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ANDOR.vhd 
+vhdtdtfi -prj LOGIC -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/LOGIC/ANDOR.tfi -module ANDOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ANDOR.vhd 
+vhdtdtfi -prj LOGIC -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/LOGIC/ANDOR.tfi -module ANDOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ANDOR.vhd 
+vhdtdtfi -prj LOGIC -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/LOGIC/ANDOR.tfi -module ANDOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ANDOR.vhd 
+vhdtdtfi -prj LOGIC -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/LOGIC/ANDOR.tfi -module ANDOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ANDOR.vhd 
+vhdtdtfi -prj LOGIC -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/LOGIC/ANDOR.tfi -module ANDOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ANDOR.vhd 
+vhdtdtfi -prj LOGIC -o C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/LOGIC/ANDOR.tfi -module ANDOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ANDOR.vhd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/HalfAdder/HalfAdder_tb_isim_beh.exe" -prj "C:/Users/David/Documents/LabsFPGADigital/LabFPGA2/HalfAdder/HalfAdder_tb_beh.prj" "work.HalfAdder_tb" 

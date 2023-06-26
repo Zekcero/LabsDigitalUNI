@@ -1,0 +1,5 @@
+vhdl isim_temp "Adder1b.vhd"
+vhdl isim_temp "X7Seg.vhd"
+vhdl isim_temp "Adder4bLogic.vhd"
+vhdl isim_temp "X7Seg_top.vhd"
+vhdl isim_temp "X7Seg_Top_tb.vhd"
